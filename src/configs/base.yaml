@@ -1,0 +1,9 @@
+name: base
+
+defaults:
+  - _self_
+  - adm: unaligned_baseline
+
+oracle: false
+save_log: true
+save_input_output: true

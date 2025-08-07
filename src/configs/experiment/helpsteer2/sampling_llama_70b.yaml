@@ -1,0 +1,21 @@
+# @package _global_
+defaults:
+  - override /adm: unaligned
+
+datasets: 
+  - helpsteer2
+
+force_determinism: true
+alignment_target: helpsteer2/target_high
+
+adm:
+  inference_kwargs:
+    shuffle_choices: True
+    num_samples: 5
+    attribute_scale_factor: 100
+  instance:
+    precision: half
+    sampler:
+      _target_: outlines.samplers.MultinomialSampler
+      temperature: 0.7
+    model_name: meta-llama/Llama-3.3-70B-Instruct

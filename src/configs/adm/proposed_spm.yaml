@@ -1,0 +1,11 @@
+instance:
+  _target_: src.algorithms.comparative_regression_adm.ComparativeRegressionADM
+  model_name: mistralai/Mistral-7B-Instruct-v0.2
+
+inference_kwargs:
+  num_samples: 5
+  generator_batch_size: 10
+  shuffle_choices: true
+  attribute_descriptions: src/prompt_engineering/attribute_descriptions.json
+  attribute_scale_factor: 100
+  fewshot: true

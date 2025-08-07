@@ -1,0 +1,21 @@
+# @package _global_
+defaults:
+  - override /adm: unaligned_baseline
+
+datasets: 
+  - mic
+
+force_determinism: true
+alignment_target: mic/target_high
+
+adm:
+  inference_kwargs:
+    shuffle_choices: True
+    num_samples: 5
+    attribute_scale_factor: 100
+  instance:
+    precision: half
+    sampler:
+      _target_: outlines.samplers.MultinomialSampler
+      temperature: 0.7
+    model_name:  mistralai/Mistral-7B-Instruct-v0.3

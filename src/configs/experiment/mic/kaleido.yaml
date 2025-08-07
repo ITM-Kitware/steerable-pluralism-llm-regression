@@ -1,0 +1,11 @@
+# @package _global_
+defaults:
+  - override /adm: kaleido
+
+datasets: 
+  - mic
+alignment_target: mic/target_high
+
+hydra:
+  run:
+    dir: outputs/mic/kaleido/

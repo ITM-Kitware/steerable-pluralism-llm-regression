@@ -1,0 +1,12 @@
+# @package _global_
+defaults:
+  - override /adm: multi_objective_reward_model
+
+datasets: 
+  - helpsteer2
+
+alignment_target: helpsteer2/target_high
+
+hydra:
+  run:
+    dir: outputs/helpsteer2/multi_objective_reward_model/target_high/

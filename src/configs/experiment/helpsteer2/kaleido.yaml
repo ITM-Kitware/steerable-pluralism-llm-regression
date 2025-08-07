@@ -1,0 +1,11 @@
+# @package _global_
+defaults:
+  - override /adm: kaleido
+
+datasets: 
+  - helpsteer2
+alignment_target: helpsteer2/target_high
+
+hydra:
+  run:
+    dir: outputs/helpsteer2/kaleido/

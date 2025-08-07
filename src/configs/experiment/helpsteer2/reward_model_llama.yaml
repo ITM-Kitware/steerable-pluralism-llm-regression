@@ -1,0 +1,16 @@
+# @package _global_
+defaults:
+  - override /adm: reward_model
+
+datasets: 
+  - helpsteer2
+
+alignment_target: helpsteer2/target_high
+
+adm:
+  instance:
+    model_name: Ray2333/GRM-Llama3.2-3B-rewardmodel-ft
+
+hydra:
+  run:
+    dir: outputs/helpsteer2_deterministic/reward_model/

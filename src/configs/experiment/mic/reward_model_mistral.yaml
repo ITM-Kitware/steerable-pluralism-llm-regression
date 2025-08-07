@@ -1,0 +1,16 @@
+# @package _global_
+defaults:
+  - override /adm: reward_model
+
+datasets: 
+  - mic
+
+alignment_target: mic/target_high
+
+adm:
+  instance:
+    model_name: weqweasdas/RM-Mistral-7B
+
+hydra:
+  run:
+    dir: outputs/mic_deterministic_mistral/reward_model/

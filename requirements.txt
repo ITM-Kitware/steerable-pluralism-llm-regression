@@ -1,0 +1,10 @@
+pandas
+matplotlib
+scikit-learn
+transformers
+hydra-core
+torch==2.3.1
+jsonschema
+outlines==0.2.1
+outlines_core==0.1.26
+Jinja2==3.1.4

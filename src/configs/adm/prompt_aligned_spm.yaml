@@ -1,0 +1,8 @@
+instance:
+  _target_: src.algorithms.baseline_adm.BaselineADM
+  model_name: mistralai/Mistral-7B-Instruct-v0.2
+
+inference_kwargs:
+  num_samples: 1
+  generator_batch_size: 10
+  shuffle_choices: true
