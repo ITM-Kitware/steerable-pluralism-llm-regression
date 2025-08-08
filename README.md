@@ -37,7 +37,7 @@ This will output a log and `input_output.json` file to the `outputs/` directory.
 ### Scoring
 To calculate an alignment score, call `score.py` with the alignment target and `input_output.json` file. For example:
 ```
-python score.py --target alignment_targets/mic/target_high.json --input_outputs outputs/mic_proposed_spm/input_output.json
+python score.py --target alignment_targets/mic/target_high.json --input_outputs outputs/path_to_run/input_output.json
 ```
 ## Citation
 If you find this work useful, please consider citing our paper:
