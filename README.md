@@ -47,7 +47,7 @@ If you find this work useful, please consider citing our paper:
   author={Jadie Adams and Brian Hu and Emily Veenhuis and David Joy and Bharadwaj Ravichandran and Aaron Bray and Anthony Hoogs and Arslan Basharat}
   booktitle={Proceedings of the AAAI/ACM Conference on AI, Ethics, and Society},
   volume={8},
-  year={2024}
+  year={2025}
 }
 ```
 ## Disclaimer
